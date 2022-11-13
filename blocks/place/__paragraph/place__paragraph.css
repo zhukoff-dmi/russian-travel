@@ -2,6 +2,24 @@
     color: white;
     font-family: 'Inter';
     font-size: 18px;
-    line-height: 1.63;
+    line-height: 1.62;
     margin: 0 0 26px 0;
+}
+
+.place__paragraph:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

@@ -7,3 +7,10 @@
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 328px) {
+    .header__logo {
+        min-width: 142px;
+        min-height: 42px;
+    }
+}
