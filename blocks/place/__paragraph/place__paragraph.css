@@ -1,6 +1,6 @@
 .place__paragraph {
     color: white;
-    font-family: 'Inter';
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.62;
     margin: 0 0 26px 0;
@@ -17,7 +17,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
     .place__paragraph {
         padding-left: 16px;
         padding-right: 16px;

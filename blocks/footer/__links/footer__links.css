@@ -8,7 +8,14 @@
     margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 640px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
+
+@media screen and (max-width: 321px) {
     .footer__links {
         flex-direction: column;
         gap: 32px;

@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding-top: 28px;
     box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 @media screen and (max-width: 1024px){
@@ -22,5 +23,6 @@
 @media screen and (max-width: 328px) {
     .header {
         max-width: 288px;
+        padding-top: 16px;
     }
 }
