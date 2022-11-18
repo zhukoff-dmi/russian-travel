@@ -18,6 +18,12 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    .intro {
+        max-width: 414px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .intro {
         max-width: 288px;

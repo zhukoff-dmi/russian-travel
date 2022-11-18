@@ -29,6 +29,12 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+    .footer {
+        max-width: 414px;
+    }
+}
+
 @media screen and (max-width: 321px) {
     .footer {
         max-width: 288px;
